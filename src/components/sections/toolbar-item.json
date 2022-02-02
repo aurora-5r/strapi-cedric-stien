@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_toolbar_toolbar_items",
+  "info": {
+    "displayName": "toolbar",
+    "icon": "list-ul",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "toolbar_item_label": {
+      "type": "string"
+    },
+    "page": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page.page"
+    }
+  }
+}

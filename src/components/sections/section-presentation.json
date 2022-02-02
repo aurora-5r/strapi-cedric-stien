@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_sections_section_presentations",
+  "info": {
+    "displayName": "section_presentation",
+    "icon": "city",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "pages": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::page.page"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "background_colors",
+  "info": {
+    "singularName": "background-color",
+    "pluralName": "background-colors",
+    "displayName": "Couleurs",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "color": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

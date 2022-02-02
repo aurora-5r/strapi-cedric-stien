@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "toolbars",
+  "info": {
+    "singularName": "toolbar",
+    "pluralName": "toolbars",
+    "displayName": "0 Menu",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "toolbar_items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.toolbar-item"
+    }
+  }
+}

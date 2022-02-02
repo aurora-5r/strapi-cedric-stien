@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_sections_section_contacts",
+  "info": {
+    "displayName": "section contact",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "email": {
+      "type": "email"
+    },
+    "background_color": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::background-color.background-color"
+    },
+    "Phone1_label": {
+      "type": "string"
+    },
+    "Phone2_label": {
+      "type": "string"
+    },
+    "Phone1_number": {
+      "type": "string"
+    },
+    "Phone2_number": {
+      "type": "string"
+    },
+    "opening": {
+      "type": "richtext"
+    },
+    "GoogleMapUrl": {
+      "type": "string"
+    },
+    "GBP_locationId": {
+      "type": "string"
+    }
+  }
+}

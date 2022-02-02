@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "avis_clients",
+  "info": {
+    "singularName": "avis-client",
+    "pluralName": "avis-clients",
+    "displayName": "Avis clients",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "customer_name": {
+      "type": "string",
+      "required": true
+    },
+    "customer_job": {
+      "type": "string",
+      "required": true
+    },
+    "review_text": {
+      "type": "richtext",
+      "required": true
+    },
+    "customer_img": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "customer_business_name": {
+      "type": "string",
+      "required": true
+    },
+    "review_title": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

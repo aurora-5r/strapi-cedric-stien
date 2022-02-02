@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_sections_section_type2s",
+  "info": {
+    "displayName": "section texte image à gauche",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image_left": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "text_right": {
+      "type": "richtext"
+    }
+  }
+}

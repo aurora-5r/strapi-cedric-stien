@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "layouts",
+  "info": {
+    "singularName": "layout",
+    "pluralName": "layouts",
+    "displayName": "2 Sections",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.section-type1",
+        "sections.section-type2",
+        "sections.section-contact",
+        "sections.section-presentation",
+        "sections.posts",
+        "sections.reviews",
+        "sections.team",
+        "sections.section-texte-sans-image"
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_reviews",
+  "info": {
+    "displayName": "Reviews",
+    "icon": "bullhorn",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "avis_clients": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::avis-client.avis-client"
+    },
+    "reviews_section_title": {
+      "type": "string"
+    }
+  }
+}

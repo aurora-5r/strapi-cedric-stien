@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_buttons",
+  "info": {
+    "singularName": "contact-button",
+    "pluralName": "contact-buttons",
+    "displayName": "Bouton contact",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}
